@@ -1,0 +1,10 @@
+aws_region             = "ap-southeast-1"
+vpc_id                 = "vpc-xxxxxxxxxxxxxxxxx"
+subnet_id              = "subnet-xxxxxxxxxxxxxxxxxxx"
+key_name               = "Name-Key"
+ami_id                 = "ami-xxxxxxxxxx"
+instance_type          = "t3.small"
+jenkins_instance_type  = "c7i-flex.large"
+k8s_node_count         = 3
+k8s_volume_size      = 20
+jenkins_volume_size  = 20
