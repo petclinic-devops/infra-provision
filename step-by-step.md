@@ -21,7 +21,6 @@ Thư mục `infra-provision` chứa toàn bộ mã hạ tầng dưới dạng **
 
 Khi không dùng script, bạn có thể chạy lần lượt các lệnh Terraform dưới đây trong terminal (thư mục chứa file `.tf`):
 
-```bash
 # 1. Khởi tạo Terraform (tải provider và module)
 terraform init
 
@@ -38,10 +37,11 @@ terraform destroy -var-file="terraform.tfvars" -auto-approve
 
 Nếu muốn triển khai nhanh chỉ với một lệnh, bạn có thể dùng script:
 
-```bash
 chmod +x deploy_infra.sh
 ./deploy_infra.sh
-
+![Mô tả hình 1](https://github.com/user-attachments/assets/8fb89324-7b5c-447f-81a3-1c15001db16c)
+![Mô tả hình 2](https://github.com/user-attachments/assets/d517e79d-87fa-4937-a6e2-483e8d026aa6)
+![Mô tả hình 3](https://github.com/user-attachments/assets/cf921c30-6e75-4ca9-90f6-70022315a891)
 
 **Ưu điểm của cách này:**
 
